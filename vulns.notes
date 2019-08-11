@@ -1,0 +1,9 @@
+# Notes: (Vulnerabilities obviously not by me, just some collection)
+Interesting Vulns:
+1. Steam symlink, registry: a symlink is created with steams registry, that key has admin privs, change image path to executable and restart service:
+
+Writeup: https://amonitoring.ru/article/steamclient-0day/
+Exploit:https://github.com/roflsandwich/Steam-EoP/blob/master/SteamEoP.ps1
+
+2. Not checking packet size network: RDP clients
+https://research.checkpoint.com/reverse-rdp-attack-code-execution-on-rdp-clients/
