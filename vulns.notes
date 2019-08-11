@@ -5,5 +5,5 @@ Interesting Vulns:
 Writeup: https://amonitoring.ru/article/steamclient-0day/
 Exploit:https://github.com/roflsandwich/Steam-EoP/blob/master/SteamEoP.ps1
 
-2. Not checking packet size network: RDP clients
+2. Not checking packet size network: RDP clients including windows default, the rdp server sends crafted messages, on in freerd is integer overflow
 https://research.checkpoint.com/reverse-rdp-attack-code-execution-on-rdp-clients/
